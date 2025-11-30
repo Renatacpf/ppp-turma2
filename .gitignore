@@ -121,3 +121,7 @@ logs
 *.jmx.log
 jmeter.log
 *.jtl
+
+# Test reports and results
+report-*/
+results.json

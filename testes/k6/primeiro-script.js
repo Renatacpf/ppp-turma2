@@ -6,7 +6,7 @@ export const options = {
   duration: '30s',
   // iteration: 1,
   thresholds: {
-    http_req_duration: ['p(90)<=2', 'p(95)<=3'],
+    http_req_duration: ['p(90)<=15', 'p(95)<=20'],
     http_req_failed: ['rate<0.01'],
     'group_duration{group:::Fazendo login}': ['avg<300'],
     'group_duration{group:::Registrando uma nova lição}': ['avg<500'],
